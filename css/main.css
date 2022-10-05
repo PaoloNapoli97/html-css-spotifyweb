@@ -6,3 +6,10 @@ main{
     width: calc(100% -15.625rem);
     overflow-y: auto;
 }
+
+.categorie{
+  padding-top: 1.25rem;
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+}

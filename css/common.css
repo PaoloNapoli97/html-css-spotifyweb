@@ -23,6 +23,10 @@
     CONTAINERS  
 ----------*/
 
+.row{
+    display: flex;
+}
+
 .page-container{
     display: flex;
     height: calc(100% - 80px);
@@ -33,4 +37,27 @@
     height: 100%;
     max-width: 12.5rem;
     padding: 1.25rem;
+}
+
+.main-container{
+    width: 84%;
+    right: 0;
+    left: 15.625rem;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------
+    CARD  
+----------*/
+
+.card{
+    padding-right: 1.875rem;
+}
+
+.album-img{
+    width: 12.5rem;
+    height: 12.5rem;
+    background: white;
 }
