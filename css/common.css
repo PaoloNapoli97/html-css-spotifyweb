@@ -1,0 +1,36 @@
+/*----------
+    COMMON  
+----------*/
+
+
+/*----------
+    FLEX  
+----------*/
+
+.flex-box{
+    display: flex;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/*----------
+    CONTAINERS  
+----------*/
+
+.page-container{
+    display: flex;
+    height: calc(100% - 80px);
+    background-color: #141922;
+}
+
+.aside-container{
+    height: 100%;
+    max-width: 12.5rem;
+    padding: 1.25rem;
+}

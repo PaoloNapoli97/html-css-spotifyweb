@@ -1,0 +1,30 @@
+/* -----------
+    HEADER
+-------------*/
+
+header{
+    position: fixed;
+    height: 4.375rem;
+    right: 0;
+    left: 15.625rem;
+    background-color: #080b12;
+}
+
+.header-position{
+    height: 100%;
+    padding-right: .625rem;
+    justify-content: flex-end;
+    vertical-align: middle;
+}
+
+/*-------------
+  RESPONSIVE
+--------------*/
+
+/*<------ Phone -------> */
+
+@media screen and (max-width: 600px) {
+    header{
+        left: 4.375rem;
+    }
+}

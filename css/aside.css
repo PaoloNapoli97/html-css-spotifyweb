@@ -1,0 +1,60 @@
+/* ----------
+    ASIDE
+  -----------*/
+
+aside {
+    width: 15.625rem;
+    background-color: #000000;
+}
+
+.logo img{
+  width: 8.125rem;
+}
+
+.home{
+  background-color: yellow;
+  height: 2.5rem;
+}
+
+.nav-playlist{
+  background-color: red;
+  height: 12.5rem;
+}
+
+.profile{
+  background-color: aqua;
+}
+
+.aside-nav{
+  height: 90%;
+}
+
+.aside-nav-small, .logo-small{
+  display: none;
+}
+
+/*-------------
+  RESPONSIVE
+--------------*/
+
+/*<------ Phone -------> */
+
+@media screen and (max-width: 600px) {
+  aside{
+    width: 4.375rem;
+  }
+
+  .aside-container{
+    width: 3.75rem;
+  }
+
+  .aside-nav, .logo{
+    display: none;
+  }
+
+  .aside-nav-small, .logo-small{
+    display: block;
+  }
+  
+}
+

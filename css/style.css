@@ -1,0 +1,13 @@
+@import url('reset.css');
+@import url('common.css');
+@import url('buttons.css');
+@import url('header.css');
+@import url('main.css');
+@import url('aside.css');
+
+
+
+footer{
+    height: 5rem;
+    background-color: #282828;
+}
