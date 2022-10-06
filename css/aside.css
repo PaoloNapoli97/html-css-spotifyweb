@@ -3,39 +3,117 @@
   -----------*/
 
 aside {
-    width: 15.625rem;
-    background-color: #000000;
-}
-
-.logo img{
-  width: 8.125rem;
-}
-
-.home{
-  background-color: yellow;
-  height: 2.5rem;
-}
-
-.nav-playlist{
-  background-color: red;
-  height: 12.5rem;
-}
-
-.profile{
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  width: 15.625rem;
+  background-color: #000000;
+  height: 100%;
+  flex-shrink: 0;  
 }
 
 .aside-nav{
-  height: 90%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 1.25rem;
 }
 
-.aside-nav-small, .logo-small{
-  display: none;
+/* ----------
+    SEZIONE LOGHI E ICONE
+  -----------*/
+
+.logo{
+  height: 5rem;
+  padding: 1.25rem;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.icon-row{
+  padding: .625rem 0;
+  align-items: center;
+}
+
+.icon-row img{
+  width: 1.5rem;
+}
+
+.icon-row span{
+  font-size: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+/* ----------
+    PLAYLIST
+  -----------*/
+
+.playlist{
+  padding-top: 1.25rem;
+  font-size: 1.25rem;
+}
+
+.add-playlist{
+  padding-top: 1.25rem;
+
+}
+
+.add-playlist i{
+  font-size: 1.625rem;
+  color: black;
+  padding: .25rem;
+  background-color: lightgray;
+}
+
+.playlist ul, .playlist li{
+  padding-top: .625rem;
+}
+
+.list-playlist{
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* ----------
+    PLAYLIST
+  -----------*/
+
+.profile{
+  margin-top: auto;
+  padding-right: 1.25rem;
+}
+
+.profile img{
+  width: 1.5rem;
+  padding-right: .375rem;
+}
+
+.account{
+  padding: .625rem 0;
+  color: white;
+  border-top: solid .125rem white
+}
+
+.account img{
+  width: 1.875rem;
+  padding: .125rem .25rem;
+  border-radius: 50%;
+  background-color: gray;
+  margin-right: 4px;
 }
 
 /*-------------
   RESPONSIVE
 --------------*/
+
+/*<----Display None----> */
+
+.phone{
+  display: none;
+}
 
 /*<------ Phone -------> */
 
@@ -48,11 +126,11 @@ aside {
     width: 3.75rem;
   }
 
-  .aside-nav, .logo{
+  .desktop{
     display: none;
   }
 
-  .aside-nav-small, .logo-small{
+.phone{
     display: block;
   }
   

@@ -2,6 +2,9 @@
     COMMON  
 ----------*/
 
+.font-awesome{
+    font-size: 1.25rem;
+}
 
 /*----------
     FLEX  
@@ -33,19 +36,13 @@
     background-color: #141922;
 }
 
-.aside-container{
-    height: 100%;
-    max-width: 12.5rem;
-    padding: 1.25rem;
-}
-
 .main-container{
-    width: 84%;
+    width: 100%;
     right: 0;
     left: 15.625rem;
     padding-top: 70px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 /*----------
@@ -61,3 +58,8 @@
     height: 12.5rem;
     background: white;
 }
+
+.row{
+    display: flex;
+}
+

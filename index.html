@@ -16,29 +16,59 @@
 <body>
     <header> 
         <div class="flex-box header-position">
-            <button>deh</button>
+            <a href="http://"><button class="upgrade-button">EFFETTUA L'UPGRADE</button></a>
         </div>
     </header>
     <div class="page-container">
         <aside>
-            <!-- Contenuti Visualizzati > 600px tablet&Web  -->
-            <div class="aside-container flex-box column">
-                <!-- Logo spotify  -->
-                <div class="logo">
-                    <img src="img/logo.svg" alt="">
+            <div class="logo">
+                <img class="desktop" src="img/logo.svg" alt="">
+                <img class="phone" src="img/logo-small.svg" alt="">
+            </div>
+            <div class="aside-nav">
+                <div class="icons">
+                    <!-- Home Icon  -->
+                    <div class="icon-row flex-box">
+                        <div><img src="img/home.svg" alt=""></i></div>
+                        <span class="desktop"><a href="http://">Home</a></span>
+                    </div>
+                    <!-- Find Icon  -->
+                    <div class="icon-row flex-box">
+                        <div><img src="img/search.svg" alt=""></i></div>
+                        <span class="desktop"><a href="http://">Cerca</a></span>
+                    </div>
+                    <!-- Your Library Icon  -->
+                    <div class="icon-row flex-box">
+                        <div><img src="img/libreria.svg" alt=""></i></div>
+                        <span class="desktop"><a href="http://">La tua libreria</a></span>
+                    </div>
                 </div>
-                <!-- Directional Button  e Nav Playlist  -->
-                <nav class="aside-nav">
-                    <div class="home">home</div>
-                    <div class="nav-playlist"></div>
-                    <div class="profile">Top Ghenn</div>
-                </nav>
-                <!-- Contenuti Visualizzati <=600px  -->
-                <div class="logo-small">
-                    <!-- <img src="img/logo-small.svg" alt=""> -->
+                <div class="playlist desktop">
+                    <h3>PLAYLIST</h3>
+                    <div class="add-playlist">
+                        <a href="http://"><i class="fa-solid fa-plus"></i> Crea Playlist</a>
+                    </div>
+                    <div class="list-playlist">
+                        <ul>
+                            <li><a href="http://">Nome Playlist</a></li>
+                            <li><a href="http://">Nome Playlist</a></li>
+                            <li><a href="http://">Nome Playlist</a></li>
+                            <li><a href="http://">Nome Playlist</a></li>
+                            <li><a href="http://">Nome Playlist</a></li>
+                            <li><a href="http://">Nome Playlist</a></li>
+                            <li><a href="http://">Nome Playlist</a></li>
+                            <li><a href="http://">Nome Playlist</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="aside-nav-small">
-                    <div class="icons">yo</div>
+                <div class="profile desktop">
+                    <div class="flex-box align-item-center">
+                        <a href="http://"><img src="img/download.svg" alt=""> Installa app</a>
+                    </div>
+                    <div class="account flex-box align-item-center">
+                        <img src="img/profile.svg" alt="">
+                        <a href="http://"><h4> Jhon Debabe</h4></a>
+                    </div>
                 </div>
             </div>
         </aside>
@@ -65,12 +95,7 @@
                         <div class="album-img"></div>
                         <div class="title"></div>
                     </div>
-                </div>
-            </section>
-            <section class="recent">
-                <h2>Recent</h2>
-                <div class="row">
-                    <div class="card">
+                        <div class="card">
                         <div class="album-img"></div>
                         <div class="title"></div>
                     </div>
@@ -91,6 +116,15 @@
                         <div class="album-img"></div>
                         <div class="title"></div>
                     </div>
+                    <div class="card">
+                        <div class="album-img"></div>
+                        <div class="title"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="recent">
+                <h2>Recent</h2>
+                <div class="row">
                     <div class="card">
                         <div class="album-img"></div>
                         <div class="title"></div>

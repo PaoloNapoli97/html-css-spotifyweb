@@ -11,11 +11,22 @@ header{
 }
 
 .header-position{
-    height: 100%;
     padding-right: .625rem;
     justify-content: flex-end;
-    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
+.upgrade-button{
+    margin-top: .5rem;
+    color: white;
+    background: none;
+    border: solid 2px white;
+    border-radius: 1.25rem;
+    padding: 1rem;
+}
+
+
 
 /*-------------
   RESPONSIVE
