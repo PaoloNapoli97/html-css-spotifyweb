@@ -8,8 +8,25 @@ main{
 }
 
 .categorie{
+  /* height: 5.625rem; */
   padding-top: 1.25rem;
   display: flex;
   justify-content: center;
-  background-color: aquamarine;
+  flex-wrap: wrap;
+}
+
+.categorie ul{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.categorie li{
+  font-size: 1rem;
+  padding: .625rem;
+  border-bottom: .125rem solid transparent;
+}
+
+
+.categorie li:first-child{
+  border-color: green;
 }
