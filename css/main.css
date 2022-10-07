@@ -48,3 +48,7 @@ main a:hover{
 .title p{
   padding: .625rem 0;
 }
+
+.album-img img{
+  width: 100%;
+}
