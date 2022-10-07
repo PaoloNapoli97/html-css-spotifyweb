@@ -17,6 +17,7 @@ main a:hover{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 
 .categorie ul{
@@ -27,13 +28,19 @@ main a:hover{
 .categorie li{
   font-size: 1rem;
   padding: .625rem;
-  border-bottom: .125rem solid transparent;
+  position: relative;
 }
 
-
-.categorie li:first-child{
-  border-color: green;
+.categorie li:first-child::after{
+  content: '';
+  display: block;
+  position: absolute;
+  left: calc(50% - 1.5625rem);
+  width: 50px;
+  height: 3px;
+  background-color: green;
 }
+
 
 /* ----------
     Playlist Home
@@ -45,10 +52,38 @@ main a:hover{
   align-items: center;
 }
 
-.title p{
+section p{
   padding: .625rem 0;
+}
+
+.album-img{
+  position: relative;
 }
 
 .album-img img{
   width: 100%;
+}
+
+.popular .album-img img{
+  border-radius: 50%;
+}
+
+.over{
+  position: absolute;
+  top: -0.125rem;
+  display: none;
+  font-size: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-img:hover .over{
+  display: flex;
+}
+
+.popular .over{
+  border-radius: 50%;
 }

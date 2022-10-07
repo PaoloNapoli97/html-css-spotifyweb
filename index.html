@@ -48,8 +48,7 @@
                     <div class="add-playlist">
                         <a href="http://"><i class="fa-solid fa-plus"></i> Crea Playlist</a>
                     </div>
-                    <div class="list-playlist">
-                        <ul>
+                        <ul class="list-playlist">
                             <li><a href="http://">Nome Playlist</a></li>
                             <li><a href="http://">Nome Playlist</a></li>
                             <li><a href="http://">Nome Playlist</a></li>
@@ -59,15 +58,14 @@
                             <li><a href="http://">Nome Playlist</a></li>
                             <li><a href="http://">Nome Playlist</a></li>
                         </ul>
-                    </div>
                 </div>
-                <div class="profile desktop">
+                <div class="profile">
                     <div class="flex-box align-item-center">
-                        <a href="http://"><img src="img/download.svg" alt=""> Installa app</a>
+                        <a href="http://"><img src="img/download.svg" alt=""><span class="desktop"> Installa app</span></a>
                     </div>
                     <div class="account flex-box align-item-center">
                         <img src="img/profile.svg" alt="">
-                        <a href="http://"><h4> Jhon Debabe</h4></a>
+                        <a class="desktop" href="http://"><h4> John Debabe</h4></a>
                     </div>
                 </div>
             </div>
@@ -88,15 +86,23 @@
                 <h2>Recently played</h2>
                 <div class="row">
                     <div class="card">
-                        <div class="album-img"><img src="img/metal_lifting.jpg" alt="">
+                        <div class="album-img">
+                            <a href="http://">
+                                <img class="normal" src="img/metal_lifting.jpg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>
                         </div>
-                        <div class="title column">
+                        <div class="title column  text-center">
                             <h3>Heavy Metal</h3>
                             <p>Subtitle</p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="album-img"><img src="img/stranger.jpeg" alt="">
+                        <div class="album-img">
+                            <a href="http://">
+                                <img src="img/stranger.jpeg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>  
                         </div>
                         <div class="title column text-center">
                             <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
@@ -104,23 +110,35 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="album-img"><img src="img/aquietplace.jpeg" alt="">
+                        <div class="album-img">
+                            <a href="http://">
+                                <img src="img/aquietplace.jpeg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>
                         </div>
-                        <div class="title column">
+                        <div class="title column text-center">
                             <h3>A quiet place</h3>
                             <p>Subtitle</p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="album-img"><img src="img/split.jpeg" alt="">
+                        <div class="album-img">
+                            <a href="http://">
+                                <img src="img/split.jpeg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>
                         </div>
-                        <div class="title column">
+                        <div class="title column text-center">
                             <h3>Split</h3>
                             <p>Subtitle</p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="album-img"><img src="img/cure.jpeg" alt="">
+                        <div class="album-img">
+                            <a href="http://">
+                                <img src="img/cure.jpeg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>
                         </div>
                         <div class="title column text-center">
                             <h3>A cure for wellness</h3>
@@ -128,51 +146,84 @@
                         </div>
                     </div>
                     <div class="card">
-                        <div class="album-img"><img src="img/sinister.jpeg" alt="">
+                        <div class="album-img">
+                            <a href="http://">
+                                <img src="img/sinister.jpeg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>
                         </div>
-                        <div class="title column">
+                        <div class="title column text-center">
                             <h3>Sinister</h3>
                             <p>Subtitle</p>
                         </div>
                     </div>
                 </div>
             </section>
+            <!-- Consigli  -->
             <section class="consigliate">
-                <h2>Recent</h2>
+                <h2>Creato per John Debabe</h2>
+                <p>Più ascolti, più accurati saranno i suggerimenti</p>
                 <div class="row">
+                    <!-- Release Radar  -->
                     <div class="card">
                         <div class="album-img">
-                            <img src="img/radar.jpeg" alt="">
+                            <a href="http://">
+                                <img src="img/radar.jpeg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>
                         </div>
-                        <div class="title"></div>
+                        <div class="title column text-center">
+                            <h3>Release Radar</h3>
+                        </div>
                     </div>
+                    <!-- Daily Mix  -->
                     <div class="card">
                         <div class="album-img">
-                            <img src="img/mixdaily.jpeg" alt="">
+                            <a href="http://">
+                                <img src="img/mixdaily.jpeg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>
                         </div>
-                        <div class="title"></div>
+                        <div class="title column text-center">
+                            <h3>Daily Mix 1</h3>
                     </div>
                 </div>
             </section>
+            <!-- Artisti Popolari  -->
             <section class="popular">
-                <h2>Recent</h2>
+                <h2>Artisti più popolari</h2>
+                <p>Più ascolti, più accurati saranno i suggerimenti</p>
                 <div class="row">
                     <div class="card">
                         <div class="album-img">
-                            <img src="img/youg.jpeg" alt="">
+                            <a href="http://">
+                                <img src="img/youg.jpeg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>
                         </div>
-                        <div class="title"></div>
+                        <div class="title column text-center">
+                            <h3>Youg</h3>
+                        </div>
                     </div>
                     <div class="card">
                         <div class="album-img">
-                            <img src="img/einaudi.jpeg" alt="">
+                            <a href="http://">
+                                <img src="img/einaudi.jpeg" alt="">
+                                <div class="over"><i class="fa-regular fa-circle-play"></i></div>
+                            </a>
                         </div>
-                        <div class="title"></div>
+                        <div class="title column text-center">
+                            <h3>Einaudi</h3>
                     </div>
                 </div>
             </section>
         </main>
     </div>
-    <footer></footer>
+    <footer>
+        <div class="song">
+            
+        </div>
+
+    </footer>
 </body>
 </html>
