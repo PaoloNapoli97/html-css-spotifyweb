@@ -8,6 +8,7 @@ header{
     right: 0;
     left: 15.625rem;
     background-color: #080b12;
+    z-index: 10;
 }
 
 .header-position{
