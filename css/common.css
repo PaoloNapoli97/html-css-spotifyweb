@@ -28,6 +28,7 @@
 
 .row{
     display: flex;
+    padding-top: 1.125rem;
 }
 
 .page-container{
@@ -50,7 +51,8 @@
 ----------*/
 
 .card{
-    padding-right: 1.875rem;
+    width: calc(100% / 6 - .625rem);
+    padding-right: 20px;
 }
 
 .album-img{

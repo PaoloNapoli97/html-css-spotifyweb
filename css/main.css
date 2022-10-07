@@ -7,8 +7,12 @@ main{
     overflow-y: auto;
 }
 
+main a:hover{
+  font-weight: 600;
+  color: white;
+}
+
 .categorie{
-  /* height: 5.625rem; */
   padding-top: 1.25rem;
   display: flex;
   justify-content: center;
@@ -29,4 +33,18 @@ main{
 
 .categorie li:first-child{
   border-color: green;
+}
+
+/* ----------
+    Playlist Home
+  -----------*/
+
+.title{
+  padding: .625rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.title p{
+  padding: .625rem 0;
 }

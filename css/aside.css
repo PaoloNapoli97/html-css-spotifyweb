@@ -18,6 +18,11 @@ aside {
   padding-left: 1.25rem;
 }
 
+aside a:hover{
+  font-weight: 600;
+  color: white;
+}
+
 /* ----------
     SEZIONE LOGHI E ICONE
   -----------*/
@@ -69,6 +74,7 @@ img{
 
 .playlist ul, .playlist li{
   padding-top: .625rem;
+  font-size: 1.125rem;
 }
 
 .list-playlist{
